@@ -1,7 +1,7 @@
 try:
     ans = 0
     while True:
-        k = 2 # You can change this to k = 12 to get answer for first part
+        k = 2 # You can change this to k = 12 to get answer for second part
         s = input()
         n = len(s)
         L = []
