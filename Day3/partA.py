@@ -15,5 +15,5 @@ try:
         L = L[:k]
         res = "".join(L)
         ans+=int(res)
-except EOFError:
+except:
     print(ans)
