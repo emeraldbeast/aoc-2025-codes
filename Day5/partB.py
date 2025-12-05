@@ -1,5 +1,4 @@
 try:
-    mx = 0
     intervals = []
     while True:
         s = input()
@@ -9,7 +8,6 @@ try:
         if "-" in s:
             L = s.split("-")
             l,r = int(L[0]),int(L[1])
-            mx = max(mx,r)
             intervals.append((l,r))
             continue
         merged = []
