@@ -1,0 +1,5 @@
+If you are using powershell, use this command to run all the codes
+>> Get-Content .\input.txt | python3 .\Day1\partA.py  (If you want to run Day 1 Part A for example)
+
+If you are using CMD, use this command to run all the codes 
+>> python3 Day1\partA.py < input.txt
